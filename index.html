@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>地铁美食地图</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin="" defer></script>
+  <script src="makimarkers.js" defer></script>
+  <script src="https://kit.fontawesome.com/3c09101ca8.js" crossorigin="anonymous" defer></script>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <h1 class="text-3xl text-center mb-2 text-red-500"><i class="fas fa-subway mr-2 text-red-600"></i>地铁美食地图</h1>
+  <div class="text-center text-gray-700">
+    <label for="stations"><i class="fas fa-map-marker-alt mr-2 text-orange-500" autocomplete="off"></i>地点:</label>
+    <select name="stations" id="stations" class="focus:outline-none border-2 border-gray-500 rounded mb-2" onchange="zoomToStation(this)">
+      <option value="default" selected="selected">选择地铁站</option>
+      <option value="Jurong East" data-cn="裕廊东">Jurong East 裕廊东</option>
+      <option value="Bukit Batok" data-cn="武吉巴督">Bukit Batok 武吉巴督</option>
+      <option value="Choa Chu Kang" data-cn="蔡厝港">Choa Chu Kang 蔡厝港</option>
+      <option value="Woodlands" data-cn="兀兰">Woodlands 兀兰</option>
+      <option value="Sembawang" data-cn="三巴旺">Sembawang 三巴旺</option>
+      <option value="Yishun" data-cn="义顺">Yishun 义顺</option>
+      <option value="Ang Mo Kio" data-cn="宏茂桥">Ang Mo Kio 宏茂桥</option>
+      <option value="Bishan" data-cn="碧山">Bishan 碧山</option>
+    </select>
+    <button class="ml-2 focus:outline-none" onclick="resetMap()"><i class="fas fa-redo-alt text-blue-500"></i></button>
+  </div>
+  <div class="flex justify-center">
+    <div id="mapid" class="w-full"></div>
+  </div>
+</body>
+</html>

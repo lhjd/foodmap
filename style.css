@@ -1,0 +1,6 @@
+#mapid { height: 40rem; }
+
+.myDivIcon {
+  text-align: center; /* Horizontally center the text (icon) */
+  line-height: 20px; /* Vertically center the text (icon) */
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "MRT En": "Jurong East",
+    "MRT Cn": "裕廊东",
+    "Address": "10 Jurong East Street 12, Singapore 609690",
+    "Postcode": 609690,
+    "Long": 1.33351,
+    "Lat": 103.74202
+  },
+  {
+    "MRT En": "Bukit Batok",
+    "MRT Cn": "武吉巴督",
+    "Address": "10 Bukit Batok Central, Singapore 659958",
+    "Postcode": 659958,
+    "Long": 1.34905,
+    "Lat": 103.74957
+  },
+  {
+    "MRT En": "Choa Chu Kang",
+    "MRT Cn": "蔡厝港",
+    "Address": "15 Choa Chu Kang Ave 4, Singapore 689813",
+    "Postcode": 689813,
+    "Long": 1.38482,
+    "Lat": 103.74449
+  },
+  {
+    "MRT En": "Woodlands",
+    "MRT Cn": "兀兰",
+    "Address": "Q30, Woodlands Ave 2, Singapore 738343",
+    "Postcode": 738343,
+    "Long": 1.43728,
+    "Lat": 103.78715
+  },
+  {
+    "MRT En": "Sembawang",
+    "MRT Cn": "三巴旺",
+    "Address": "11 Canberra Rd, #01-08, Singapore 759775",
+    "Postcode": 759775,
+    "Long": 1.44901,
+    "Lat": 103.81979
+  },
+  {
+    "MRT En": "Yishun",
+    "MRT Cn": "义顺",
+    "Address": "301 Yishun Ave 2, near to toilet, Singapore 769093",
+    "Postcode": 769093,
+    "Long": 1.42944,
+    "Lat": 103.83501
+  },
+  {
+    "MRT En": "Ang Mo Kio",
+    "MRT Cn": "宏茂桥",
+    "Address": "2450 Ang Mo Kio Ave 8, Singapore 569811",
+    "Postcode": 569811,
+    "Long": 1.36992,
+    "Lat": 103.84961
+  },
+  {
+    "MRT En": "Bishan",
+    "MRT Cn": "碧山",
+    "Address": "9 Bishan Pl, #04-03A, Singapore 579837",
+    "Postcode": 579837,
+    "Long": 1.351236,
+    "Lat": 103.848456
+  }
+]
